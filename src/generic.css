@@ -73,3 +73,44 @@ h6 {
 p {
     font-size: 1em;
 }
+
+/* Options Bar */
+
+.hidden {
+    display: none;
+}
+
+#toolbar {
+    position: fixed;
+    bottom: 0;
+    margin: 8pt;
+    z-index: 200;
+}
+
+#toolbarBtn {
+    display: inline-block;
+    background-color: lightgray;
+    color: inherit;
+    border: none;
+    border-radius: 999px;
+    width: fit-content;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    padding: 8pt;
+}
+
+#options {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+}
+
+#options div {
+    margin-top: 15%;
+    margin-left: 25%;
+}
